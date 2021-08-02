@@ -1,8 +1,10 @@
 {
-  "name": "uniswapv2",
+  "name": "@manifoldfinance/storage-slots",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {},
+   "files": ["contracts/**/*.sol", "contracts/abi/**/*.josn"],
+  "scripts": {
+"build" "npx hardhat compile"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/manifoldfinance/external-contracts.git"

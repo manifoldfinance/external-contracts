@@ -4,3 +4,4 @@ build
 cache
 artifacts
 *.log
+build-info
